@@ -2,7 +2,7 @@ const initialState = {
     isLoading: false
 }
 
-export const reducer = (state = initialState, action) => {
+export const loader = (state = initialState, action) => {
     switch (action.type) {
         case "LOADER_ENABLE":
             return { ...state, isLoading: true };
